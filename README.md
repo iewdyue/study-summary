@@ -8,5 +8,9 @@
 4、 chain.responsibility 责任链模式
 5、 composite  聚合
 6、 decorator  装饰者模式
-7、 delegate 代理模式
-8、
+7、 delegate 委派模式
+8、 facade 
+9、 factory 简单工厂、抽象工厂、工厂方法、工厂单例；
+10、 observer 观察者模式
+11、proxy 代理模式  静态代理、
+12、
