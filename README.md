@@ -12,5 +12,5 @@
 8、 facade 
 9、 factory 简单工厂、抽象工厂、工厂方法、工厂单例；
 10、 observer 观察者模式
-11、proxy 代理模式  静态代理、
+11、proxy 代理模式  静态代理、cglib 代理、
 12、
