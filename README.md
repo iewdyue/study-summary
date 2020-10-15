@@ -15,3 +15,4 @@
 11、proxy 代理模式  静态代理、cglib 代理、
 12、singleton 单例模式
 13、 strategy 策略模式
+14、 template.method  模板方法
