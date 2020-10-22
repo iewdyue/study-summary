@@ -16,3 +16,33 @@
 12.singleton 单例模式
 13. strategy 策略模式
 14. template.method  模板方法
+
+
+## mysql事务
+
+### 事务的特性
+
+1. A atomicity 原子性；
+2. C consistency 一致性；
+3. I isolation 隔离性；
+4. D Durability    持久性；
+
+### 事务的隔离级别
+
+1. Read uncommited 读未提交；
+2. Read Commited  读已提交；
+3. Repeated Read   可重复读；
+4. Serializable   序列化；
+
+这四种隔离级别可能有的问题
+
+^ 隔离级别  | 脏读 | 不可重复读 | 幻读 | 
+| Read Uncommited | 可能 | 可能 | 可能 | 
+| Read Commited | 不可能 | 可能 | 可能 | 
+| Repeated Read | 不可能 | 不可能 | 可能 | 
+| Serializable | 不可能 | 不可能 | 不可能 | 
+
+
+### innoDB 如何保证的事务的特性
+
+
